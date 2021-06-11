@@ -4,7 +4,7 @@ pipeline {
     stages {
             stage('Checkout') {
                 steps {
-                    git 'https://github.com/shivaswaroop40/jenkin_deploy.git'
+                    git 'https://github.com/Arnab146/project_infinite.git'
                 }
             }
             stage('Build') {
